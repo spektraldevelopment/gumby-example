@@ -1,7 +1,32 @@
 // Your custom SCSS should be written here...
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+//thead, tbody {
+//  display: block;
+//}
+//
+//tbody {
+//  height: 400px;
+//  overflow-y: scroll;
+//}
+
 section {
   border: 1px solid #cccccc;
   background-color: #fafafa;
+}
+#userSection {
+  margin: 0;
+}
+
+#userList {
+  margin: 0;
+}
+
+#messageSection {
+  margin: 0;
 }
 
 .send {
@@ -12,3 +37,4 @@ section {
 .send:hover {
   cursor: pointer;
 }
+

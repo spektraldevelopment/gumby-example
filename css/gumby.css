@@ -1682,7 +1682,15 @@ table.rounded thead th, table.rounded thead td, table.rounded caption + tbody tr
 
 .ie9 .radio.checked i, .ie9 .checkbox.checked i { top: 0; }
 
+h1 { margin: 0; padding: 0; }
+
 section { border: 1px solid #cccccc; background-color: #fafafa; }
+
+#userSection { margin: 0; }
+
+#userList { margin: 0; }
+
+#messageSection { margin: 0; }
 
 .send { width: 100px; float: right; }
 

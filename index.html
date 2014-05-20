@@ -33,10 +33,7 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-	<!-- We highly recommend you use SASS and write your custom styles in sass/_custom.scss.
-		 However, there is a blank style.css in the css directory should you prefer -->
 	<link rel="stylesheet" href="css/gumby.css">
-	<!-- <link rel="stylesheet" href="css/style.css"> -->
 
 	<script src="js/libs/modernizr-2.6.2.min.js"></script>
 </head>
@@ -45,25 +42,65 @@
 
     <section id="mainSection" class="row">
 
+        <section class="twelve columns">
+            <h1>Socket Chat</h1>
+        </section>
+
         <section id="userSection" class="four columns">
             <ul id="userList">
-                <li><i class="icon-user"></i>User One</li>
-                <li><i class="icon-user"></i>User Two</li>
+                <li><i class="icon-user"></i>Bill Paxton</li>
+                <li><i class="icon-user"></i>Bill Pullman</li>
                 <li><i class="icon-user"></i>User Three</li>
                 <li><i class="icon-user"></i>User Four</li>
             </ul>
         </section>
 
         <section id="chatSection" class="eight columns">
-            <ul id="chatList">
-                <li>Chatty chat chat.</li>
-                <li>Chat chat chatty chat chat.</li>
-                <li>Chat cat chatty chatty chat.</li>
-                <li>Chat chat.</li>
-            </ul>
+            <table id="chatTable" class="striped">
+                <thead>
+                    <tr>
+                        <th>User</th>
+                        <th>Message</th>
+                    </tr>
+                </thead>
+                <tbody id="chatList">
+                    <tr>
+                        <td>Bill Paxton</td>
+                        <td>This is a slightly longer block of content to show how the cells will wrap when necessary</td>
+                    </tr>
+                    <tr>
+                        <td>Robert Pullman</td>
+                        <td>This is a slightly shorter block of content.</td>
+                    </tr>
+                    <tr>
+                        <td>Robertson Longestname</td>
+                        <td>This is a slightly longer block of content to show how the cells will wrap when necessary</td>
+                    </tr>
+                    <tr>
+                        <td>Long Name</td>
+                        <td>This is a slightly shorter block of content.</td>
+                    </tr>
+                    <tr>
+                        <td>Bill Paxton</td>
+                        <td>This is a slightly longer block of content to show how the cells will wrap when necessary</td>
+                    </tr>
+                    <tr>
+                        <td>Robert Pullman</td>
+                        <td>This is a slightly shorter block of content.</td>
+                    </tr>
+                    <tr>
+                        <td>Robertson Longestname</td>
+                        <td>This is a slightly longer block of content to show how the cells will wrap when necessary</td>
+                    </tr>
+                    <tr>
+                        <td>Long Name</td>
+                        <td>This is a slightly shorter block of content.</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
 
-        <section id="messageSection" class="row">
+        <section id="messageSection" class="twelve columns">
             <div class="field">
                 <textarea class="input textarea" placeholder="Say something"></textarea>
             </div>
