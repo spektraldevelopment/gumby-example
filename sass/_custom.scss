@@ -1,1 +1,14 @@
 // Your custom SCSS should be written here...
+section {
+  border: 1px solid #cccccc;
+  background-color: #fafafa;
+}
+
+.send {
+  width: 100px;
+  float: right;
+}
+
+.send:hover {
+  cursor: pointer;
+}
