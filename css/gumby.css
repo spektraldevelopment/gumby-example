@@ -1683,6 +1683,11 @@ table.rounded thead th, table.rounded thead td, table.rounded caption + tbody tr
 .ie9 .radio.checked i, .ie9 .checkbox.checked i { top: 0; }
 
 #mainSection #mainHeader h1 { margin: 0; padding: 0; }
+#mainSection #startScreen { border: 1px solid #cecece; height: auto; padding: 10px; }
+#mainSection #startScreen div { margin: 2px 0 0; padding: 0; }
+#mainSection #startScreen div textarea { margin: 0; height: 35px; }
+#mainSection #startScreen .join { color: #fff; width: 100px; float: right; }
+#mainSection #startScreen .join:hover { cursor: pointer; }
 #mainSection #userSection { margin: 0; }
 @media only screen and (max-width: 767px) { #mainSection #userSection { height: 100px; overflow-y: scroll; margin-bottom: 10px; border: 1px solid #cecece; } }
 #mainSection #userSection #userList { margin: 0; }

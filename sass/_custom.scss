@@ -8,6 +8,32 @@
     }
   }
 
+  #startScreen {
+
+    border: 1px solid #cecece;
+    height: auto;
+    padding: 10px;
+
+    div {
+      margin: 2px 0 0;
+      padding: 0;
+      textarea {
+        margin: 0;
+        height: 35px;
+      }
+    }
+
+    .join {
+      color: #fff;
+      width: 100px;
+      float: right;
+    }
+
+    .join:hover {
+      cursor: pointer;
+    }
+  }
+
   #userSection {
     @include respond(all-phones) {
       height: 100px;
