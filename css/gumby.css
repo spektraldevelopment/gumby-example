@@ -1682,16 +1682,20 @@ table.rounded thead th, table.rounded thead td, table.rounded caption + tbody tr
 
 .ie9 .radio.checked i, .ie9 .checkbox.checked i { top: 0; }
 
-h1 { margin: 0; padding: 0; }
-
-tbody { display: block; height: 384px; overflow-y: scroll; }
-
-#userSection { margin: 0; }
-
-#userList { margin: 0; }
-
-#messageSection { margin: 0; }
-
-.send { width: 100px; float: right; }
-
-.send:hover { cursor: pointer; }
+#mainSection #mainHeader h1 { margin: 0; padding: 0; }
+#mainSection #userSection { margin: 0; }
+@media only screen and (max-width: 767px) { #mainSection #userSection { height: 100px; overflow-y: scroll; margin-bottom: 10px; border: 1px solid #cecece; } }
+#mainSection #userSection #userList { margin: 0; }
+@media only screen and (max-width: 767px) { #mainSection #userSection #userList li { font-size: 1.5em; } }
+#mainSection #chatSection { border: 1px solid #b0b0b0; height: 400px; overflow-y: scroll; }
+@media only screen and (max-width: 767px) { #mainSection #chatSection { height: 300px; } }
+#mainSection #chatSection #chatList .chatItem:nth-child(even) { background: #FFF; }
+#mainSection #chatSection #chatList .chatItem:nth-child(odd) { background: #eeeeee; }
+#mainSection #chatSection #chatList .chatItem { padding: 10px; }
+#mainSection #chatSection #chatList .chatItem .chatName { font-size: 0.9em; }
+#mainSection #chatSection #chatList .chatItem .chatMessage { color: #000; }
+#mainSection #chatSection #chatList .chatItem .chatTime { font-size: 0.75em; color: #b0b0b0; }
+#mainSection #messageSection { margin: 10px 0 0; }
+@media only screen and (max-width: 767px) { #mainSection #messageSection div textarea { height: 35px; } }
+#mainSection #messageSection .send { width: 100px; float: right; }
+#mainSection #messageSection .send:hover { cursor: pointer; }
